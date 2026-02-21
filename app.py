@@ -58,6 +58,6 @@ elif menu == "Quero Sindicalizar-me":
     st.write("A sindicalização é a sua melhor defesa. Preencha os campos para recebermos o seu pedido.")
     with st.form("form_sind"):
         st.text_input("Contacto Telefónico")
-        st.text_area("Dúvidas ou Questões")
+        st.text_area("Deixe o local de trabalho e Email")
         if st.form_submit_button("Enviar Pedido de Inscrição"):
             st.success("Obrigado pela sua confiança. Entraremos em contacto brevemente.")
